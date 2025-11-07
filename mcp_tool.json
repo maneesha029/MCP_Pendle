@@ -1,0 +1,16 @@
+{
+  "name": "Pendle_MCP",
+  "description": "AI Pendle MCP with predictions, backtesting, portfolio simulation & terminal charts",
+  "commands": [
+    {"name":"health","path":"/health","method":"GET"},
+    {"name":"markets","path":"/markets","method":"GET"},
+    {"name":"market","path":"/market/{market_id}","method":"GET"},
+    {"name":"predict","path":"/predict","method":"POST"},
+    {"name":"predict_multi","path":"/predict_multi","method":"POST"},
+    {"name":"simulate_portfolio","path":"/simulate_portfolio","method":"POST"},
+    {"name":"backtest","path":"/backtest","method":"POST"}
+  ]
+}
+
+
+
